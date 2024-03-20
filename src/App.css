@@ -1,0 +1,46 @@
+body {
+    font-family: "Inter", sans-serif !important;
+    background-image: url(https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg?auto=compress&cs=tinysrgb&w=800 )
+    ;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  
+  .icon-btn {
+    cursor: pointer;
+    transition: "color .2s ease-in-out";
+  }
+  
+  .delete-btn:hover {
+    color: #282222;
+  }
+  
+  .add-btn:hover {
+    color: #15803D;
+  }
+  
+  .content {
+    margin-left: 300px;
+  }
+  
+  .note-card {
+    cursor: pointer;
+    transition: "background-color .3s ease-in-out"
+  }
+  
+  .note-card:hover {
+    background-color: #E5E5E5;
+  }
+  
+  .selected {
+    color: #fff;
+    background-color: #1E40AF;
+  }
+  
